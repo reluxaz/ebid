@@ -1,0 +1,3083 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa',cursive;
+}
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+nav{
+    display: flex !important;
+    justify-content: space-between;
+    padding: 10px 2%;
+    color: white;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #000428, #0074da);
+}
+nav>*{
+    padding-top: 20px;
+}
+.elavecss {
+    left: 0;
+}
+.leftcss{
+    left: 7px !important;
+}
+.show1 , .show2{
+    display: none;
+}
+.absol7{
+    display: none;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 5.5px 0;
+    font-weight: 900 !important;
+}
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color:gold;
+    transition: 0.3s;
+}
+nav li a {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    text-decoration: none !important;
+    transition: 0.3s;
+    font-weight: 900;
+    color: white;
+    font-size:13px;
+}
+nav ul li a:hover::after {
+    width: 100%;
+}
+nav ul li a:hover {
+    color: gold;
+}
+.fleks1{
+    display: none;
+}
+.fleks2{
+    display: flex !important;
+    justify-content: space-between;
+    padding: 20px 2%;
+    letter-spacing: 1px;
+}
+/* .loadd{
+    background: white url(images/bid.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 300;
+} */
+.loadd{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 300;
+}
+.loadd img{
+    width: 100%;
+    padding: 100px 0;
+}
+.x1 img{
+    width:170px;
+    margin: -10px 0;
+}
+.fleks14{
+   display: flex;
+   justify-content: space-between;
+   padding: 0 3%;
+}
+.x2{
+    position: relative;
+    width: 40%;
+}
+.f1{
+    position: relative;
+}
+.f1 p{
+border: 1px solid white;
+cursor: pointer;
+padding: 8px 16px;
+font-size: 12px;
+}
+.x2 input{
+    width:100%;
+   padding: 8.5px 13px;
+    border-radius:3px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.7px;
+}
+::placeholder {
+    font-weight: 900;
+    font-size: 12px;
+  }
+.x2 button{
+    position: absolute;
+    right:1.5px;
+    top: 1.4px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding:5.8px 12px;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.x2 i{
+    font-size: 20px;
+}
+.x3{
+    display: flex;
+    justify-content: space-between;
+    width:43%;
+}
+.nav-href3{
+    position: relative;
+    text-decoration: none !important;
+color: white;
+height: 30px;
+width: 30px;
+line-height: 30px;
+font-size: 14px;
+text-align: center;
+background-color: #000;
+border-radius: 100%;
+}
+.nav-href3 i{
+animation: hereket1 3s infinite ease-out 1s;
+}
+.nav-href2{
+    text-decoration: none !important;
+    color: white !important;
+    padding: 10px 18px;
+    background: linear-gradient(to right, #000428, #0074da);
+    height: 37px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.nav-href1{text-decoration: none !important;
+    color: white !important;
+    padding: 10px 18px;
+    background: linear-gradient(to right, #cb2d3e, #ef473a);
+    height: 37px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.f2{
+    margin: 5.5px 0;
+}
+.f2 a{
+    text-align: center;
+    text-decoration: none !important;
+    color: white !important;
+    padding: 10px 18px;
+    background-color: #000;
+    height: 37px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.hihi{
+    position: relative;
+    width:550px;
+    height:550px;
+    margin: auto;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.reng1{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(35, 35, 35, 0.7) 100%), url(images/16.jpg);
+}
+.reng0{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(35, 35, 35, 0.5) 100%), url(images/17.jpg);
+}
+.reng2{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(35, 35, 35, 0.7) 100%), url(images/m2.jpg);
+}
+.reng3{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(35, 35, 35, 0.7) 100%), url(images/20.jpg);
+}
+.reng4{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(35, 35, 35, 0.7) 100%), url(images/m4.jpg);
+}
+.reng5{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(35, 35, 35, 0.7) 100%), url(images/m5.jpg);
+}
+.reng6{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(35, 35, 35, 0.7) 100%), url(https://i1.wp.com/www.indiaretailing.com/wp-content/uploads/2020/10/videocon-ha.jpg?fit=681%2C400&ssl=1);
+}
+.reng7{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(35, 35, 35, 0.7) 100%), url(images/m3.jpg);
+}
+.reng8{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(35, 35, 35, 0.7) 100%), url(images/18.png);
+}
+.absoluted{
+    position: absolute;
+    right: -15px;
+    top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    background: linear-gradient(to right, #cb2d3e, #ef473a);
+    padding: 10px 30px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+}
+.absoluted i{
+    font-size: 18px;
+}
+.heros{
+    position: relative;
+    top: 0;
+    left: 20px;
+}
+.absol2{
+    display: none;
+    position: absolute;
+    top: 56px;
+    z-index: 3;
+    background: linear-gradient(to right, #141e30, #243b55);
+    padding: 30px 50px;
+    border-radius: 5px;
+}
+.absol3{
+    display: none;
+    position: absolute;
+    top: 160px;
+   left: 0;
+    z-index: 3;
+}
+.p3 , .p2{cursor: pointer;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 900;
+    }
+    .p3 i{
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        margin: -30px 0 !important;
+        font-size: 20px;
+    }
+   .p2 i{
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        font-size: 20px;
+    }
+    .diger2{
+        height: 0;
+        transition: 0.3s;
+        margin-top: 35px;
+        overflow: hidden;
+    }
+    .diger{
+        height: 0;
+        transition: 0.3s;
+        z-index: 110002;
+        overflow: hidden;
+    }
+    .diger2 p {
+        margin: 4px 0;
+        border: 1px solid #000;
+        color: #000;
+        padding: 3px;
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+    .diger a{
+        display: block !important;
+        margin: 10px 0;
+        text-align: center;
+     text-decoration: none;   
+     color: #000;
+    }
+    .diger img{
+        display: block;
+        margin: 5px 0 !important;
+        width: 27px;
+        height: 23px;
+        object-fit: cover;
+        margin: -12px 0;
+    }
+    .mezenne{
+        margin: -10px;
+    }
+    .aktivv{
+        height: 80px !important;
+        font-size: 14px;
+    }
+    .aktivv2{
+        height: 105px !important;
+        font-size: 14px;
+    }
+    .aktiv img{
+        display: block;
+        width: 27px;
+        height: 23px;
+        object-fit: cover;
+        margin: -12px 0;
+    }
+.nav-href3 p{
+    font-family: 'Font Awesome 6 Free';
+    position: absolute;
+    top: -16px;
+    left: 29px;
+    color: red; 
+    font-weight: 900;
+}
+.boyut{
+    display: block !important;
+}
+.absol3 a{
+    display: block;
+    margin: 7px 0;
+}
+.f1:hover .absol2{
+    display: block;
+}
+.absol2 p{
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    color:#000;
+    font-weight: 900;
+}
+.x4{
+    display: none;
+}
+.metnler{
+    padding: 380px 0;
+    color: white;
+    font-weight: 900;
+}
+.metnler p{
+    margin: 10px 0;
+}
+.metnler a{
+    display: block;
+    text-decoration: none !important;
+   text-align: center;
+   margin: 7px 0;
+   padding: 10px;
+   border-radius: 7px;
+   background-color: white;
+   color: #000 !important;
+}
+.carousel-inner{
+    padding: 10px 0;
+}
+.carousel-inner p{
+    text-align: center;
+}
+#lobbi{
+    padding: 20px 0;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+}
+#lobbi h1{
+    text-align: center;
+    padding: 25px 0;
+    font-weight: 900;
+}
+.f4{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: yellow;
+    font-size: 24px;
+    color: #000;
+    font-weight: 900;
+    margin: auto;
+}
+.f3 p{
+    padding: 7px 0;
+}
+.fleks3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 2%;
+ }
+ .fleks4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:20px 3%;
+}
+
+.downn{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.sales{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    padding:8px 18px;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    text-decoration: line-through;
+    background: linear-gradient(to right, #000428, #004e92);
+}
+.sales2{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    padding:8px 18px;
+    border-radius: 5px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    color: white;
+    background: linear-gradient(to right, #200122, #6f0000);
+}
+.sales2 span{
+    font-size: 13px;
+}
+.downn a{
+    text-decoration: none !important;
+}
+.downn i{
+    display: block;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-radius: 100%;
+    text-align: center;
+    margin: 10.5px 0;
+    font-size: 14px;
+    background-color: #000;
+    color: white;
+}
+.upp{
+   position: absolute;
+   top: 0;
+   left: -200px;
+   transition: 0.3s;
+}
+.upp p{
+   background-color: gold;
+   margin: 20px 0;
+   font-size: 11px;
+   text-align: center;
+   padding: 4.3px;
+   font-weight: 900;
+   border-radius: 10px;
+}
+.upp i{
+    font-weight: 900;
+    font-size: 17px;
+}
+.t1{
+    width: 28.5%;
+    position: relative;
+    height: 630px;
+    border: 2px solid black;
+    padding:50px;
+    margin: 15px 0;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.absol8{
+    width: 100%;
+}
+.absol8 img{
+    position: absolute;
+    top: 170px;
+    left: 70px;
+    object-fit: cover;
+    width: 250px !important;
+    height:148px !important;
+}
+.h{
+    height: 510px !important;
+}
+.t1 img{
+    display: block;
+    margin: -10px auto;
+    object-fit: cover;
+    width:280px;
+    height: 280px;
+}
+.t1:hover .upp{
+    left: 57px;
+}
+.fleks5{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 7%;
+    background: linear-gradient(to right, #3a6186, #89253e);
+    color: white;
+    border-radius: 5px;
+}
+.time{
+padding-bottom: 15px;
+}
+.qalin{
+    font-weight: 900;
+}
+.kicik{
+    font-size: 11px;
+}
+.time p{
+    margin: 0 !important;
+    text-align: center;
+}
+.t5{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.t6>*{
+    font-size: 13px;
+    margin: 5.1px 0;
+    font-weight: 900;
+}
+.ferqli>*{
+    margin: 6.1px 0;
+}
+.mainpagebid{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+.bidinputu{
+    width: 100px;
+    text-align: center;
+    font-weight: 900;
+}
+.pilusminus{
+    width:40px;
+    font-size: 22px;
+}
+.t1 h2{
+font-size: 18px;
+padding: 5px 0;
+}
+.t6 h5{
+    margin: 9.5px 0;
+}
+footer{
+    padding: 5px 0;
+    background-color: #000;
+}
+footer a , footer p{ 
+    color: white;
+    font-size: 11px;
+    font-weight: 900;
+    margin: 5px 0;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+}
+footer span{
+    color: red;
+    font-size: 13px;
+}
+#auct {
+    padding: 20px 0;
+}
+#auct h2{
+    text-align: center;
+    padding-top: 27px;
+    font-weight: 900;
+}
+.quest{
+    padding: 90px 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(4, 4, 4, 0.6 )),url(images/16.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+.quest form{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 23%;
+}
+.quest input{
+width: 80%;
+padding: 4px 10px;
+font-weight: 900;
+border-radius: 5px;
+font-size: 12px;
+}
+.quest button{
+    font-size: 13px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background: linear-gradient(to right, #0575e6, #021b79);
+    color: white;
+    font-weight: 900;
+    letter-spacing:1px;
+    border: none;
+}
+.fleks6{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 4%;
+    text-align: center;
+}
+.t4{
+    width: 23%;
+    padding: 32px 0;
+}
+.t8{
+    width: 23%;
+    padding: 32px 0;
+}
+.t4 img{
+    width: 250px;
+    margin-left: -81px;
+}
+.fleks6 a{
+    color: black;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: 900;
+}
+.t8 a{
+    text-decoration: none !important;
+    display: block;
+    transition: 0.3s;
+    margin: 40px 0;
+    font-size: 13px;
+    color: black;
+}
+.t8 i{
+    font-weight: 900;
+}
+.t8 h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+.t8 a:hover{
+    opacity: 0.5;
+}
+.t4 p{
+padding: 15px 0;
+font-size: 14px;
+line-height: 30px;
+text-align: left;
+}
+.fleks7{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin-left: -24px;
+    margin-top: -20px;
+}
+.fleks7 a:hover{
+    margin-top: -7px;
+}
+.fleks7 i {
+ background-color: #000;
+    width: 40px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+.modal1{
+    display: none;
+    position: fixed;
+    top:0;
+    overflow: auto;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+    transition: 0.3s;
+    z-index: 4;
+}
+.modal2{
+    display: none;
+    position: fixed;
+    top:0;
+    overflow: auto;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+    transition: 0.3s;
+    z-index: 3334;
+}
+.modal2 .not1{
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: #000;
+}
+.modal1::-webkit-scrollbar , .modal2::-webkit-scrollbar{
+   display: none;              
+  }
+#bagla{
+    position: absolute;
+    cursor: pointer;
+right: 30px;
+top: 20px;
+font-size: 35px;
+font-weight: 900;
+color: red;
+}
+.shared{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#bagla2 , #bagla3 ,#bagla4 , #bagla5{
+    position: absolute;
+    cursor: pointer;
+right: 20px;
+top: 20px;
+font-size: 30px;
+color: red;
+font-weight: 900;
+}
+.modall p{
+    width: 65%;
+    margin: auto;
+    padding: 220px 0;
+    line-height: 25px;
+    color: white;
+}
+.fleks8{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 2%;
+}
+.t9 , .t10{
+    width: 48%;
+}
+.fleks9{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+.fleks9 i{
+    background-color: #000;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14.5px;
+        font-weight: 500;
+        border-radius: 20px;
+        text-align: center;
+}
+.t10 p{
+    width: 93%;
+}
+.fleks9 a{
+    text-decoration: none !important;
+    color: white !important;
+}
+.t9 img{
+    width: 400px;
+    object-fit: cover;
+}
+.t10 h3{
+    padding-top: 40px;
+}
+.t10 p{
+    padding: 30px 0;
+}
+.fleks10{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #202428;
+    padding: 0 5%;
+}
+.klass1{
+    width: 12%;
+    margin: 10px 0;
+}
+.klass1 img{
+    display: block;
+    width: 100px;
+    object-fit: cover;
+    margin: auto;
+    padding-top: 20px;
+}
+.fleks28{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.fleks12{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 1%;
+}
+.partners h2{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 900;
+}
+.klass2{
+    width: 12%;
+    margin: 20px auto;
+    border: 1px solid #000;
+    padding: 15px;
+}
+.klass2 img{
+    display: block;
+    width: 130px;
+    margin: auto;
+    text-align: center;
+    object-fit: cover;
+}
+.fleks28 a{
+    text-decoration: none !important;
+    color: #000;
+    background: linear-gradient(to right, #3a6186, #89253e) !important;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 11px;
+    color: white;
+} 
+.fleks28 a:hover{
+    color: white;
+}
+@keyframes hereket1{
+    0% {transform: rotate(35deg);}
+  12.5% {transform: rotate(-30deg);}
+  25% {transform: rotate(25deg);}
+  37.5% {transform: rotate(-20deg);}
+  50% {transform: rotate(15deg);}
+  62.5% {transform: rotate(-10deg)}
+  75% {transform: rotate(5deg)}
+  100% {transform: rotate(0);}  
+}
+@keyframes hereket2 {
+    from {
+    opacity: 0;
+    transform: scale(0.5);
+}
+to {
+    opacity: 1;
+    transform: scale(1);
+}
+}
+.terms-container{
+    text-align: center;
+    padding: 10px 0;
+}
+.important-data , .termin-data{
+    width: 90%;
+padding: 20px;
+margin: 20px auto;
+border: 1px solid #a2a2a2;
+}
+.important-data p{
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: left;    
+letter-spacing: 1px;
+}
+.termin-data p{
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;    
+letter-spacing: 1px;
+}
+/* faq cssi */
+.qaffaq {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+.qaffaq h2 {
+    padding: 20px 0;
+    color: #000;
+    font-weight: 900;
+}
+details {
+    width: 100%;
+    min-height: 5px;
+    max-width: 700px;
+    padding: 18px 70px 3px 20px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 22px;
+    border: 3px solid #00a2ff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+details + details {
+    margin-top: 20px;
+}
+details[open] {
+    min-height: 50px;
+    background-color: #00a2ff;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .2);
+}
+details p {
+    color:white;
+    font-weight: 900;
+    font-size: 13px;
+    padding: 10px 0;
+    letter-spacing: 1.3px;
+    text-align: left;
+    line-height: 23px;
+}
+details h3{
+    font-size: 13px;
+    color: red;
+    font-weight: 900;
+    letter-spacing: 1.3px;
+}
+summary{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+summary:focus {
+    outline: none;
+}
+summary:focus::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+.control-icon {
+    fill: #334c99;
+    transition: .3s ease;
+    pointer-events: none;
+}
+.control-icon-close {
+    display: none;
+}
+details[open] .control-icon-close {
+    display: initial;
+    transition: .3s ease;
+}
+details[open] .control-icon-expand {
+    display: none;
+}
+.asagi{
+    padding: 7px 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.informational{
+position: fixed;
+width: 400px;
+height: 350px;
+top: 300px;
+left: 50px;
+padding:50px 20px;
+border-radius: 10px;
+background-color: #000428;
+color: white;
+z-index: 2;
+}
+.but1{
+    background-color: #ff0400;
+    padding: 5px 16px;
+    font-size: 12px;
+    color: white;
+    font-weight: 900;
+}
+.but2{
+    background-color: rgb(153, 255, 0);
+    padding: 5px 16px;
+    font-size: 12px;
+    color: #000;
+    font-weight: 900;
+}
+.informational h3{
+    font-size: 16px;
+    padding: 10px 0;
+}
+.informational p{
+    font-size: 13px;
+}
+.informational i{
+    font-size: 100px;
+}
+.absol4{
+    position: absolute;
+    top: 227px;
+    left: 0;
+    display: none;
+}
+.absol4 a{
+    display: block;
+    margin: 2px 0;
+}
+.changecol{
+    background-color: rgba(0,0,0,0.4);
+}
+.alertwindow{
+    z-index: 10;
+    display: none;
+    position: fixed;
+    top: 100px;
+    width: 80%;
+    border-radius: 5px;
+    padding: 50px 30px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85));
+}
+.bankwindow{
+    display: none;
+    z-index: 2;
+    position: fixed;
+    top: 300px;
+    left: 0;
+    width: 80%;
+    border-radius: 5px;
+    padding: 50px 30px;
+    text-align: center;
+    color: white;
+   background-color: #000;
+}
+.partwindow{
+    z-index: 10;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 400px;
+    width: 700px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85));
+}
+.partwindow img{
+    width: 500px;
+}
+.alertwindow button{
+    padding:6px 16px;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 5px;
+}
+.bankwindow a{
+    padding:6px 16px;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: white;
+    color: #000;
+}
+/* login cssi */
+.main {
+    width: 360px;
+    height: 520px;
+    margin: 90px auto !important;
+    background: red;
+    margin: auto;
+   background:linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(35, 35, 35, 0.6) 100%), url(images/z4.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+    font-family: 'Comfortaa', cursive;
+}
+.rengch1{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+.margin{
+    padding:60px 0;
+}
+.flexinput , .flexinput2 , .flexinput3{
+    position: relative;
+}
+.flexinput a{
+    position: absolute;
+    top: 12px;
+    right: 75px;
+}
+.flexinput2 a{
+    position: absolute;
+    top: -13.5px;
+    right: -7px;
+}
+.flexinput3 a{
+    position: absolute;
+    top: 6px;
+    right: 560px;
+}
+.flexinput i , .flexinput2 i , .flexinput3 i{
+    font-size: 16px;
+    color: #000;
+}
+.signing input{
+    width: 60%;
+    height: 20px;
+    justify-content: center;
+    display: flex;
+    margin: 26px auto;
+    padding: 10px;
+    font-weight: 900;
+    border: none;
+    background-color: white;
+    outline: none;
+    border-radius: 5px;
+}
+.signingcont h1 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 65px 0;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif !important;
+}
+.signingcont a{
+    display:block;
+    text-decoration: none;
+    text-align:center;
+    transition:0.3s;
+    color:white;
+    font-size:10px;
+}
+    .signup a:hover {
+        text-decoration: underline;
+    }
+.buton {
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    height: 40px;
+    justify-content: center;
+    display: block;
+    transition: 0.3s;
+    color: white;
+    background: rgb(163, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main::placeholder {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    color: black;
+    font-size: 12px;
+}
+.buton:hover {
+    background: white;
+    color: black;
+}
+.qeydiyyat h2{
+    padding: 30px 0;
+    font-size: 18px;
+}
+/* login cssi */
+/* coming soon cssi */
+.werecoming{
+    background-color: #003951;
+}
+.coming h1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	width: 50vw;
+	font: 900 120px/1 "Source Sans Pro", Arial, sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	letter-spacing: -3px;
+	user-select: none;
+	--x-dist: 5px;
+	--y-dist: 7px;
+	--bg-dist: 10px;
+	text-shadow: calc(var(--x, var(--x-dist)) * 0.1)
+			calc(var(--y, var(--y-dist)) * 0.1) 0 hsl(174, 5%, 80%),
+		calc(var(--x, var(--x-dist)) * 0.2) calc(var(--y, var(--y-dist)) * 0.2) 0
+			hsl(174, 5%, 75%),
+		calc(var(--x, var(--x-dist)) * 0.3) calc(var(--y, var(--y-dist)) * 0.3) 0
+			hsl(174, 5%, 70%),
+		calc(var(--x, var(--x-dist)) * 0.4) calc(var(--y, var(--y-dist)) * 0.4) 0
+			hsl(174, 5%, 66%),
+		calc(var(--x, var(--x-dist)) * 0.5) calc(var(--y, var(--y-dist)) * 0.5) 0
+			hsl(174, 5%, 64%),
+		calc(var(--x, var(--x-dist)) * 0.6) calc(var(--y, var(--y-dist)) * 0.6) 0
+			hsl(174, 5%, 62%),
+		calc(var(--x, var(--x-dist)) * 0.7) calc(var(--y, var(--y-dist)) * 0.7) 0
+			hsl(174, 5%, 61%),
+		calc(var(--x, var(--x-dist)) * 0.8) calc(var(--y, var(--y-dist)) * 0.8) 0
+			hsl(174, 5%, 60%),
+		calc(var(--x, var(--x-dist)) * 0.9) calc(var(--y, var(--y-dist)) * 0.9) 0
+			hsl(174, 5%, 62%),
+		calc(var(--x, var(--x-dist)) * 1) calc(var(--y, var(--y-dist)) * 1) 0
+			hsl(174, 5%, 61%),
+		var(--x, 0) calc(var(--y, var(--bg-dist)) * 0.5) var(--bg-dist)
+			rgba(0, 0, 0, 0.2),
+		var(--x, 0) var(--y, var(--bg-dist)) var(--bg-dist) rgba(0, 0, 0, 0.2),
+		var(--x, 0) calc(var(--y, var(--bg-dist)) * 2) calc(var(--bg-dist) * 2)
+			rgba(0, 0, 0, 0.3);
+            /* coming soon cssi */
+}
+.bidding h1{
+    padding: 10px 50px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.viewnumber{
+    padding:0 50px;
+    font-weight: 900;
+    font-size: 14px;
+}
+.fleks29{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 3%;
+ }
+ .klass4{
+    width: 43%;
+    font-weight: 900;
+ }
+ .klass3{
+    width: 43%;
+ }
+ .imagcontain img{
+    width: 500px;
+    height: 500px;
+    vertical-align: middle;
+    object-fit: cover;
+ }
+ .imag2contain img{
+    display: block;
+margin: auto;
+margin-top: 120px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+ }
+ .klass4 p{
+    padding: 15px 0;
+    font-size: 14px;
+    line-height: 22px;
+ }
+ .costing{
+    padding: 20px 0;
+ }
+ .costing span{
+    font-size: 22px;
+}
+.minus1{
+    padding: 0 5%;
+}
+.minus2 p{
+    padding-top: 10px !important;
+    margin: 0 !important;
+}
+.fleks31{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.fleks31 a{
+    text-decoration: none !important;
+    color: white;
+    font-weight: 900;
+    padding: 6px 24px;
+    height: 35px;
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #000;
+}
+.fleks31 a:hover{
+    background: #db1600;
+    color: white;
+}
+.bidnow{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 200px;
+}
+.bidnow input{
+    width: 70px;
+    text-align: center;
+}
+.fleks19{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 22%;
+}
+.fleks19 i{
+    font-weight: 900;
+    color: #000;
+}
+.biduserlist{
+    border: 3px solid #000;
+    overflow-y: auto;
+    font-weight: 900;
+    height: 230px;
+    padding: 20px 0;
+}
+.biduserlist h4{
+    font-size: 13px;
+    font-weight: 900;
+    padding-top: 13px;
+}
+.biduserlist p{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 100%;
+    border: 2px solid #000;
+}
+.fleks21{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 6%;
+}
+.fleks21 h3{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 100%;
+    border: 2.5px solid #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 2.5px 0;
+}
+.fleks21 h5{
+    padding-top: 13px;
+    font-size: 13px;
+    font-weight: 900;
+}
+.fleks21:nth-child(1){
+    background-color: #00FF00;
+    color: #000;
+}
+.fleks21 p{
+    padding: 0 !important;
+}
+.fleks19 i{
+height: 30px;
+width: 30px;
+line-height: 30px;
+text-align: center;
+font-size: 14px;
+margin: 14px 0;
+border: 1px solid #000;
+border-radius: 100%;
+}
+.bidplus , .bidminus{
+    text-align: center;
+    font-weight: 900;
+    font-size: 27px;
+    background: linear-gradient(to right, #000428, #0074da);
+    color: white;
+    border: none;
+}
+ .fleks17 , .fleks18{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 1%;
+ }
+ .fleks18 iframe{
+    width: 430px;
+    height: 330px;
+    margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ }
+ .fleks17 p{
+    cursor: pointer;
+    font-size: 11.5px;
+    padding: 7px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+ }
+ /* qeydiyyat formu */
+ .regformcontain{
+    padding: 21.6px 0;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+ }
+.reg-formu{
+    width: 55%;
+    margin: 20px auto;
+    border: 6px solid rgb(255, 67, 98);
+    padding:20px 40px;
+    color: white;
+}
+.fleks20{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 26%;
+}
+ .reg-formu input{
+    display: block;
+    border: 2px solid white;
+    padding: 10px;
+    width: 100%;
+    font-weight: 900;
+    border-radius: 10px;
+    margin: 20px 0;
+ }
+ .reg-formu button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 40px;
+    background: linear-gradient(to right, #1d4350, #a43931);
+    color: white;
+    transition: 0.3s;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 20px;
+ }
+ .reg-formu a{
+    color:white;
+    font-weight: 900;
+    margin: 25px 0;
+ }
+ .reg-formu p{
+    padding-top: 10px;
+    font-weight: 900;
+ }
+ .chekboks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 5%;
+ }
+ .chekboks input{
+    width: 20%;
+    height: 30px;
+ }
+ .reg-formu button:hover{
+    background: white;
+    color: #000;
+ }
+ /* qeydiyyat formu */
+ #bidnews h2{
+    text-align: center;
+ }
+.news1{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.news1 img{
+    width: 40%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.news1 h3{
+    font-size: 16px;
+    padding-top: 30px;
+}
+/* personal kabinet css-i */
+.fleks22{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding: 40px 2%;
+    color: white;
+}
+.fleks23{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   padding: 20px 0;
+}
+.flex22{
+    width: 30%;
+}
+.profilname h1 , .klass23 h2 , .fleks24 h3{
+    font-size: 21px !important;
+    font-weight: 900;
+    padding: 7px 0;
+    font-size: 16px;
+}
+.absol5{
+    z-index: 3;
+    position: fixed;
+        top: 13px;
+        right: 13px;
+        display: none;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        background: #000;
+        color: white;
+        border-radius: 100%;
+        text-align: center;
+}
+.absol6{
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
+.usernavbar a{
+    display: block;
+    margin: 17px 0;
+    padding: 7px 10px;
+    border-radius: 2px;
+    width: 45%;
+    background: white;
+    color: #000;
+    font-weight: 900;
+    font-size: 13px;
+}
+.usernavbar a:hover{
+background-color: #000;
+color: white;
+}
+.fleks24{
+   margin: 20px auto;
+}
+.fleks24 input{
+    display: block;
+    font-size: 10px;
+    font-weight: 900;
+    width: 300px;
+    padding: 3.5px 5px;
+    border-radius:3px;
+    letter-spacing: 0.7px;
+}
+.klass24{
+    position: relative;
+}
+.klass24 img{
+width: 450px;
+object-fit: cover;
+border-radius: 15px;
+}
+.dop{
+    margin-top: 40px;
+}
+#komment{
+    padding: 13px 0;
+}
+.promoform{
+    display: flex;
+    justify-content: center;
+}
+.promoform button{
+font-size: 12px;
+padding: 2px 10px;
+font-weight: 900;
+border-radius: 5px;
+}
+.promoform input{
+border-radius: 5px;
+font-weight: 900;
+padding: 0 10px;
+font-size: 12px;
+}
+/* news viewunun cssi */
+.xeber h1 , .xeber h2 , #komment h3{
+font-size: 30px;
+padding: 10px 26px;
+}
+.xeber p{
+    padding: 10px 26px;
+    line-height: 25px;
+    font-size: 13px;
+    width: 60%;
+    font-weight: 900;
+}
+.xeber img{
+    width: 700px;
+    border-radius: 10px;
+}
+#komment input , #komment textarea{
+    display: block;
+    margin: 10px 0;
+    padding: 4px 10px;
+    font-weight: 900;
+    width: 50%;
+    margin-left: 25px;
+}
+#komment button , .klass23 button{
+    display: block;
+    padding: 7px 30px;
+    font-weight: 900;
+    border-radius: 5px;
+    transition: 0.3s;
+    color: white;
+    background-color: #cb2d3e;
+    font-size: 14px;
+    margin-left: 25px;
+}
+.klass23 button:hover{
+    background: #000;
+}
+.xeber button:hover{
+    background: #000;
+}
+.fleks16{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    padding: 10px 5%;
+}
+.fleks16 i {
+    background-color: #000;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 20px;
+}
+/* news viewunun cssi */
+/* aktivlik table css i */
+#activity h2{
+text-align: center;
+padding: 10px 0;
+font-weight: 900;
+}
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 20px 0;
+    padding: 0;
+    font-weight: 900;
+    width: 100%;
+    table-layout: fixed;
+  }
+  table img {
+    width: 30px;
+}
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: 12px;
+    letter-spacing: .1em;
+  }
+/* aktivlik table css i */
+/* bankinfo css i */
+#bankinfo h2{
+text-align: center;
+padding: 10px 0;
+font-weight: 900;
+}
+.fleks25{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   padding: 10px 0.5%;
+   color: white;
+}
+.bank{
+    position: relative;
+width: 24%;
+border-radius: 10px;
+background: linear-gradient(to right, #ff00cc, #333399);
+background: linear-gradient(to right, #3a6186, #89253e);
+background: linear-gradient(to right, #4ecdc4, #556270);
+background: linear-gradient(to right, #141e30, #243b55);
+background: linear-gradient(to right, #000000, #434343);
+background: linear-gradient(to right, #8e0e00, #1f1c18);
+}
+.bank:nth-child(1){
+    background: linear-gradient(to bottom, #8e0e00, #1f1c18);
+}
+.bank:nth-child(2){
+    background: #000;
+}
+.bank:nth-child(3){
+    background: linear-gradient(to top, #970079, #000048);
+}
+.bank h3{
+    font-size: 16px;
+    padding:20px;
+}
+.bank h4{
+    padding-top: 70px;
+}
+.bank p , .bank h4{
+    text-align: center;
+    font-size: 17px;
+    margin: 20px 0;
+}
+.bank2{
+width: 25%;
+background: linear-gradient(to right, #141e30, #243b55);
+border-radius: 10px;
+}
+.bank2 a{
+    display: block !important;
+    text-align: center;
+    color: white;
+    font-size: 200px;
+    text-decoration: none !important;
+}
+.bank2 h2{
+    font-size: 23px;
+    padding: 10px 0;
+}
+.bank h6{
+    margin: auto;
+    width: 200px;
+    border-radius: 20px;
+    padding:10px 0;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 900;
+    text-align: center;
+    color: #000;
+    background: white;
+   text-align: center;
+}
+/* bankinfo css i */
+/* promo css i */
+.fleks26{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   padding: 50px 5%;
+   color: white;
+}
+#promokod h2{
+    text-align: center;
+    padding: 10px 0;
+}
+.promo1{
+    width: 18%;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.promo1 img{
+    display: block;
+    margin: auto;
+width: 120px;
+object-fit: cover;
+}
+/* promo css i */
+#referal h2{
+    text-align: center;
+}
+.fleks27{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 3.8%;
+    flex-wrap: wrap;
+}
+.fleks27 img{
+    width: 150px;
+    object-fit: cover;
+}
+#parol h1{
+    font-size: 29px;
+    text-align: center;
+    font-weight: 900;
+    padding: 30px 0;
+}
+#parol h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+#parol input{
+    display: block;
+width: 30%;
+border-radius: 5px;
+padding: 5px 10px;
+font-size: 13px;
+margin: 5px auto;
+}
+#parol button{
+    display: block;
+    margin: 13px auto;
+    font-size: 13px;
+    padding: 7px 30px;
+    border-radius: 7px;
+    background: linear-gradient(to right, #0575e6, #021b79);
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border: none;
+}
+/* switch duymesi cssi */
+.switch {
+    visibility: hidden;
+    position: absolute;
+  } 
+  .switch + label {
+    display: block;
+    height: 30px;
+    width: 60px;
+    position: relative;
+    background-color: #ddd;
+    border-radius:30px;
+    cursor: pointer;
+  }
+  .switchadd + label{
+    margin-left: 20px;
+  }
+  .switch + label::before {
+    display: block;
+    position: absolute;
+    content: "";
+    left: 30px;
+    top: 0;
+    bottom: 10px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+  } 
+  .switch + label, .switch + label::before {
+    transition: all 0.4s;
+  }
+  
+  .switch:checked + label {
+    background-color: #00ff1e;
+  }
+  
+  .switch:checked + label::before {
+    margin-left: -30px;
+  }
+/* switch duymesi cssi */
+/* about ccsi */
+.fleks11{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding:20px 1%;
+}
+.bot{
+    padding: 40px 0;
+}
+.flex11{
+    width: 48%;
+    color: white;
+}
+.flex11 h1 , .flex11 h2{
+    font-size: 25px;
+    padding: 5px 44.3px;
+}
+.flex11 img{
+    display: block;
+    margin: 60px auto;
+    width: 76%;
+    border-radius:10px;
+    animation: 2s move6;
+}
+.flex11 p{
+padding: 30px 45px;
+line-height: 25px;
+}
+.fleks13{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:20px 3%;
+}
+.fleks13 a{
+    width: 22.5%;
+    text-align: center;
+    background-color: #003951;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+padding: 25px 0;
+text-decoration: none !important;
+    transition: 0.3s;
+}
+.fleks13 a h4{
+    padding: 15px 0;
+}
+.fleks13 a p{
+    font-size: 18px;
+    font-weight: 900;
+}
+.fleks13 a:hover{
+background-color: white;
+color: #000;
+}
+.fleks13 a i{
+    font-size: 33px;
+    color: gold;
+}
+.altxet{
+    height: 3px;
+    width: 90px;
+    margin-left: 45px;
+    background-color: gold;
+        }
+/* about css i */
+/* admin panel cssi*/
+.bossishere{
+    position: relative;
+}
+.bosslist{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: 0.9s;
+    padding: 0 2%;
+}
+.bosslist a{
+    width: 14%;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    z-index: 10;
+    text-decoration: none !important;
+    margin: 7px 0;
+    background-color: #000;
+    text-align: center;
+    font-weight: 900;
+    font-size: 11px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.bosslist a:hover{
+    background-color: gold;
+    color: #000;
+}
+.admin-partner a{
+    display: block;
+   text-align: center;
+   padding: 10px 0;
+   width: 200px;
+   color: white;
+   text-decoration: none !important;
+   margin: auto;
+   background-color: #000;
+}
+.textareafleks{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    flex-wrap: wrap;
+}
+.textareadivi{
+    width: 30%;
+}
+.textareadivi h2{
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+.textareadivi textarea{
+    width: 70%;
+    padding: 40px 0;
+    border: 2px solid #000;
+}
+.adminpartnerbuton button{
+display: block !important;
+margin:14px auto;
+width: 200px;
+padding: 5px;
+transition: 0.3s;
+font-size: 14px;
+font-weight: 900;
+background-color: #000;
+color: white;
+}
+.adminpartnerbuton button:hover{
+    background-color: white;
+    color: #000;
+}
+.partnerfleks1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    flex-wrap: wrap;
+}
+.partnerflex1{
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 2px solid #000;
+}
+.partnerflex1 img{
+    width: 200px;
+    object-fit: cover;
+}
+.adminhref{
+    display: flex;
+    justify-content: space-between;
+   padding: 15px 0;
+   height: 20px;
+    flex-wrap: wrap;
+}
+.adminhref i{
+cursor: pointer;
+font-size: 20px;
+}
+.fleks30{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    padding: 12px 10%;
+}
+.fleks30cu a{
+    text-decoration: none !important;
+    background-color: white;
+    color: #000;
+    border-radius: 5px;
+    transition: 0.3s;
+    border: 1px solid #000;
+    padding: 7px 30px;
+    font-size: 14px;
+}
+.fleks30cu span{
+    font-size: 13px;
+}
+.fleks30cu select{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 900;
+    margin-left: 5px;
+    padding: 3px 0;
+    border: 2px solid #000;
+}
+.fleks30cu a:hover{
+    background-color: #000;
+    color: white;
+}
+.auksikon i{
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 3px 0;
+    background-color: black;
+    color: white;
+}
+.auct-edit-css form{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 0 3%;
+}
+.auct-edit-css h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    padding: 5px 0;
+}
+.formdivi{
+    width: 31%;
+    font-weight: 900;
+    font-size: 13.5px;
+}
+.formdivi select , .formdivi input{
+    width: 100% !important;
+    margin: 10px 0;
+    padding: 4px 10px;
+    font-weight: 900;
+}
+.formdivi p{
+    margin: 0;
+}
+.formorta input{
+    display: block;
+    margin: auto;
+    padding: 4px 10px;
+    width: 65%;
+}
+.formorta select{
+    display: block;
+    width: 35%;
+    font-size: 13px;
+    padding: 10px 0;
+    margin: 20px auto;
+}
+.hopo{
+    font-size: 30px;
+    padding-top: 14px;
+}
+.formorta h4{
+    padding: 10px 0;
+    text-align: center;
+}
+.formorta a{
+    display: block; 
+    width: 200px;
+    margin: auto;
+    text-decoration: none !important;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    font-weight: 900;
+    padding: 10px 20px;
+    background:#00FF00;
+}
+.absoldu i{
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    font-size: 50px;
+    left: 10px;
+    background: black;
+    color: white;
+    border-radius: 100%;
+    padding: 22px;
+}
+.absoldu a{
+    color:white;
+}
+.solaget{
+    margin-left: -10px;
+}
+/* admin panel cssi*/
+/* pagination cssi */
+.peqineysin {
+    padding:12px 0;
+}
+.salamcss{
+    left: 0 !important;
+}
+.peqineyshin ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    .peqineyshin ul li{
+        list-style: none;
+        padding: 6px 26px;
+        background-color: #000;
+        color: white;
+        border: 1px solid white;
+        font-size: 13px;
+    }
+    .peqineyshin ul li a{
+        text-decoration:none;
+        color:white;
+    }
+    .contactfleks{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 1%;
+    }
+    .contactfleks1{
+        width: 33.3%;
+    }
+.contactfleks input{ 
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    vertical-align: middle;
+    width: 100%;
+    border: 2px solid #000;
+    margin: 5px 0;
+}
+.orta{
+    display: block;
+    border: 2px solid #000;
+    width:90%;
+    margin: 10px auto;
+    font-size: 10px;
+    padding: 10px 0;
+    font-weight: 900;
+    letter-spacing: 1.3px;
+}
+.admincontinfo h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+.admincontinfo button{
+    display: block;
+    font-size: 12px;
+    padding: 5px 20px;
+    background-color: #000;
+    color: white;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-weight: 900;
+    margin: 10px auto;
+}
+.admincontinfo button:hover{
+    background-color: white;
+    color: #000;
+}
+/* pagination cssi */
+@media(max-width:1296px){
+.x3{
+    width: 67%;
+}
+#parol form{
+    padding: 0 10%;
+}
+#parol button , #parol input{
+    margin:10px auto;
+}
+.x2{
+    position: absolute;
+    top: 65px;
+    left: 143px;
+    width: 65%;
+}
+.t1{
+   width: 46%;
+}
+.f2{
+    width: 70%;
+}
+.informational {
+    top: 547px;
+    left: 15px;
+}
+.flexinput3 a{
+    right:100px;
+}
+}
+@media(max-width:1115px){
+    .absoldu {
+    font-size: 20px;
+    padding: 15px;
+}
+    .quest form{
+    padding: 0 5%;
+    }
+    .klass2{
+        width: 25%;
+        margin:5px auto;
+    }
+    .switchadd + label{
+        margin-left: 5px;
+      }
+    .flex22{
+        position: fixed;
+        z-index: 2;
+        left: -920px;
+        width: 80%;
+        margin: -30px 0;
+        transition: 0.5s;   
+    }
+    .absol5{
+        display: block;
+    }
+    .t4 img{
+        margin: 0;
+    }
+    .t4 , .t8{
+        width: 47%;
+        margin: 20px 0;
+            text-align: center;
+            border: 2px solid brown;
+            padding:15px;
+    }
+    .t4 p{
+        text-align: center;
+    }
+    .fleks7{
+        margin: 0;
+    }
+    .partwindow{
+        left: 200px;
+    }
+    .bank , .bank2{
+        width: 70%;
+        padding: 50px 0;
+        margin: 10px auto;
+    }
+    .bank2 a{
+        font-size: 150px;
+    }
+    .promo1{
+        width: 35%;
+        margin: 10px 0;
+    }
+    .klass24{
+        margin: 35px 0;
+    }
+    .fleks13 a{
+        width: 48%;
+        margin: 10px 0;
+    }
+}
+@media(max-width:1024px){
+    .partwindow{
+       left: 20px;
+    }
+    #lobbi h1{
+        font-size: 25px;
+    }
+    .absol3{
+        top: 250px;
+    }
+    .news1 img{
+        width:60%;
+    }
+    #parol input{
+        width: 75%;
+    }
+    .flex11 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .flex11 img{
+        width: 400px;
+    }
+.x3{
+    width: 85%;
+    padding: 0 5%;
+}
+.f3{
+width: 35%;
+margin: 10px auto;
+text-align: center;
+}
+.f3 p{
+    padding: 5px 0;
+}
+.coming h1{
+    font-size: 80px;
+}
+}
+@media(max-width:768px){
+    table {
+        border: 0;
+      }
+      table caption {
+        font-size: 1.3em;
+      }
+      table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }   
+      table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+      }   
+      table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .6em;
+        text-align: right;
+      }   
+      table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      table td:last-child {
+        border-bottom: 0;
+      }
+      .switchadd + label{
+        display: block !important;
+        margin: auto;
+      }
+    .klass2{
+        width: 50%;
+    }
+    .fleks7{
+        padding: 0;
+    }
+    .fleks14{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .fleks14 a ,.fleks14 p{
+        font-size: 15px;
+    }
+    footer span{
+        font-size: 16px;
+    }
+    .fleks17 p{
+        cursor: none;
+    }
+    #lobbi{
+        padding: 0;
+    }
+    .news1{
+        width:70%;
+}
+.promo1{
+    width: 75%;
+    margin:20px auto;
+    padding: 70px 0;
+}
+.fleks27{
+    padding: 0 4%;
+}
+.fleks12{
+    padding: 0 1%;
+}
+#parol h1{
+    font-size: 20px;
+}
+.bosslist a{
+    width: 26%;
+}
+.partwindow{
+    left: 20px !important;
+    width: 94% !important;
+}
+.contactfleks1{
+    width: 50%;
+}
+.formdivi{
+    width: 75%;
+    margin: auto;
+}
+.x2 ::placeholder{
+    font-size: 10px;
+}
+}
+@media(max-width:650px){
+    .t4 , .t8{
+        width: 85%;
+        margin: 15px auto;
+    }
+    .fleks7{
+        padding: 0 11%;
+    }
+    .quest{
+        padding: 60px 0;
+    }
+    .quest form{
+        flex-direction: column;
+    }
+    .quest input{
+        margin: 10px auto;
+        width: 90%;
+    }
+    .quest button{
+        width: 90px;
+        margin:0 auto;
+        font-size: 10px;
+        padding: 8px 0; 
+    }
+    .quest h2{
+        font-size: 17px !important;
+    }
+    .fleks17 p{
+        width:80%;
+        margin:7px auto;
+    }
+}
+@media(max-width:535px){
+     .x3{
+       padding: 0 10%;
+       margin-left: -35px
+    }
+    .contactfleks1{
+        width: 75%;
+        margin: 10px auto;
+    }
+    .partwindow img{
+        width: 270px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .f2{
+        width: 90%;
+    }
+    .f3{
+        width: 75%;
+        margin: 10px auto;
+    }
+    #auct h2 , #bidnews h2{
+        font-size: 18px;
+        font-weight: 900;
+    }
+    .partners h2{
+        font-size: 20px;
+    }
+    .asagi{
+        font-size: 12px;
+    }
+    #lobbi h1{
+        font-size: 19px;
+    }
+    .f3 p{
+        font-size: 14px;
+        padding: 10px 0;
+    } 
+    .t10 p {
+        padding: 0;
+    }
+    .fleks9{
+        padding: 0 5%;
+    }
+    .usernavbar a{
+        width: 75%;
+        font-size: 12px;
+        margin: 20px 0;
+    }
+    .flex27{
+        margin: 10px auto;
+    }
+    .flex27 img{
+        width: 100px;
+    }
+    #parol h2{
+        font-size: 13px;
+    }
+    .partnerflex1{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .fleks31{
+        flex-direction: column;
+    }
+    .fleks31 h3 , .fleks31 p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .fleks31 a{
+        text-align: center;
+    }
+}
+@media(max-width:896px){
+    .t1{
+        width:80%;
+        margin: 20px auto;
+    }
+    .textareadivi{
+        width: 85%;
+        margin: 10px auto;
+    }
+    .peqineyshin ul li{
+        margin: 3px 0;
+        padding: 3px 15px;
+        font-size: 10px;
+    }
+    .klass3 , .klass4{
+        width: 85%;
+        margin: 10px auto;
+    }
+    .imagcontain img{
+        display: block;
+        width: 350px;
+        height: 350px;
+        margin: auto;
+    }
+    .alertwindow{
+        left: 20px;
+    }
+    .imag2contain img{
+        width: 150px;
+        height: auto;
+        margin: 25px auto;
+    }
+    .fleks15{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 7%;
+    }
+    .fleks15 a{
+        padding: 1px 10px;
+        border: 1px solid green;
+        margin: auto;
+    }
+    .nav-href2 , .nav-href1{
+        display: none;
+    }
+    .important-data p{
+        font-size: 16px;
+    }
+    .klass1{
+        width: 30%;
+        margin: 5px auto;
+    }
+    .modal1 h2{
+        font-size: 20px;
+    }
+    .t10 h3{
+        padding-top: 10px;
+    }
+    #bagla{
+        top: 65px;
+        font-size: 40px;
+    }
+    .t9 , .t10{
+        width: 85%;
+        margin: 10px auto;
+    }
+    nav ul{
+        display: none;
+    }
+    .quest h2{
+        font-size: 22px;
+    }
+    .show1{
+        display: block;
+    }
+    .fleks1{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15%;
+    }
+    .fleks1 a {
+        text-decoration: none;
+        color: white;
+        font-weight: 900;
+    }
+    .fleks1 i {
+        background-color: #000;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 15.5px;
+        font-weight: 500;
+        border-radius: 20px;
+    }
+    .x4 {
+        display: block;
+        z-index: 3;
+        color: #000;
+        font-size: 30px;
+        position: absolute;
+        top: 13px;
+        right: 13px;
+    }
+    nav ul {
+        display: block;
+        position: absolute;
+        background-color: white;
+        z-index: 2;
+        left: -1200px;
+        width: 100%;
+        margin: -30px 0;
+        transition: 0.5s;     
+    }
+    nav li {
+        display: block;
+        text-align: center;
+        color: black;
+        padding:10px 0;
+        margin: 0;
+    }
+    nav li a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #000;
+        font-weight: 900;
+    }
+    nav ul li a:hover::after {
+        width: 0;
+    }
+    nav ul li a:hover {
+        color: rgb(206, 206, 206);
+    }   
+    .newcss1 {
+        left: 0;
+    }
+    .show2{
+display: inline-block;   
+ }
+ .xeber img{
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+ }
+ .xeber p{
+    width: 85%;
+    font-size: 10.5px;
+ }
+}
+@media(max-width:600px){
+.hihi{
+    border-radius: 20px !important;
+    width: 90% !important;
+    height: 455px;
+}
+.bosslist{
+    position: absolute;
+    top: 40px;
+    left:-1200px;
+}
+.absol7{
+    display: block;
+    color: #000;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 13px;
+}
+.flexinput3 a{
+    right:30px;
+}
+.metnler{
+    padding: 338px 0;
+}
+.flexinput2 a{
+    position: absolute;
+    top: -5.5px;
+    right: 25px;
+}
+.flexinput2 i{
+  font-size: 13px;
+}
+.klass24 img{
+   width: 300px;
+}
+.news1 img{
+    width:80%;
+}
+.coming h1{
+    font-size: 50px;
+}
+.important-data p{
+    font-size: 12px;
+}
+.terms-container h1{
+    font-size: 19px;
+}
+.metnler a{
+    width: 308px;
+    margin: 20px auto;
+}
+.modal2 .not1{
+    font-size: 14px;
+}
+.qaffaq h2{
+    font-size: 20px;
+}
+  .bank , .bank2{
+    width: 90%;
+}
+#bankinfo h2 , #activity h2 , #promokod h2 , #referal h2 , #parol h2{
+    font-size: 16px;
+}
+.fleks16{
+    width: 93%;
+}
+.reg-formu h1{
+    font-size: 18px;
+    text-align: center;
+}
+.reg-formu a{
+    margin: 10px 0;
+}
+.reg-formu input{
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+    padding: 5px 20px;
+}
+.imag2contain img{
+    width: 120px;
+}
+.fleks13 a{
+    width: 75%;
+    margin: 10px auto;
+}
+#parol input{
+    width:96%;
+}
+.textareadivi textarea{
+    width: 100%;
+}
+.partwindow img{
+    width: 300px;
+    padding-top: 50px;
+}
+}
+@media(max-width:470px){
+    .contactfleks1{
+        width: 98%;
+    }
+    .bosslist a{
+        width: 50%;
+    }
+    .f2 a{
+        display: block;
+        margin: 5px 0;
+    }
+    .asagi{
+        font-size: 10px;
+        padding: 7px 17px;
+    }
+    .alertwindow{
+        width: 93%;
+    }
+    .t9 img{
+        width: 250px;
+    }
+    .x4{
+        font-size: 25px;
+        padding: 3.5px 0;
+    }
+    .bidding h1 , .costing h2{
+        font-size: 16px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .imagcontain img{
+        width: 230px;
+        height: auto;
+    }
+    #parol h1{
+        font-size: 14px;
+    }
+.p2{
+   position: absolute;
+   top: 65px;
+   left: 80px;
+}
+.p3{
+    position: absolute;
+    top: 65px;
+    left: 20px;
+}
+.news1 img{
+    width:80%;
+}
+.absol3{
+    top: 0;
+    left: 0px;
+}
+.f1 p{
+    display: none;
+}
+.diger2 p {
+    margin: 4px 0;
+    border: 1px solid white;
+    color: white;
+    padding: 3px;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+.klass1{
+    width: 45%;
+}
+nav ul{
+    margin: -376px 0;
+}
+.t1{
+    width: 93%;
+}
+.fleks7{
+    padding: 0 5%;
+}
+.quest button{
+    width: 110px !important;
+}
+nav{
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 25px 0;
+}
+.f1 , .f2{
+    margin: 2px auto;
+}
+.quest h2{
+    font-size: 13px !important;
+}
+.fleks14 p{
+    font-size: 12px !important;
+}
+.fleks14 a, .fleks14 p {
+    padding:0;
+}
+.t4 , .t8{
+    width: 94%;
+}
+.absol2{
+    left: -47.5px;
+}
+.absoluted{
+    padding: 10px 20px;
+}
+.absoluted , .absoluted i{
+    font-size: 14px !important;
+}
+.informational{
+    top: 560px;
+    width: 75%;
+   height: auto;
+   padding:10px 15px;
+}
+.informational button{
+    margin:7px auto;
+}
+.reg-formu{
+    width: 75%;
+}
+.xeber form input , .xeber form textarea{
+    width: 85%;
+}
+.xeber h1, .xeber h2, .xeber h3{
+    font-size: 16px;
+    font-weight: 900;
+}
+.klass1 img{
+    width: 70px;
+    margin: -5px auto; 
+}
+.hopo{
+    font-size: 18px;
+}
+.formorta select{
+    width: 65%;
+}
+.fleks30{
+    padding: 12px 13%;
+}
+}
+@media(max-width:400px){
+    .t1{
+        width: 100% !important;
+    }
+    .fleks14 a , footer span{
+        font-size: 13px;
+    }
+.fleks28 a{
+    font-size: 10px;
+    padding: 6px 12px;
+}
+.t4 img{
+    width: 200px;
+}
+.x1 img {
+    width: 130px;
+}
+.t1 img{
+    width: 248px;
+}
+#bagla2{
+    right: 5px;
+}
+.news1 img{
+    width:95%;
+}
+.fleks7{
+    padding: 0;
+}
+.qaffaq h2{
+    font-size: 16px;
+}
+.modal2 .not1{
+    font-size: 11px;
+}
+.fleks13 a{
+    width: 95%;
+}
+.x2{
+    width: 58%;
+}
+.x2 input{
+    padding:3.5px;
+         width: 0; 
+     border: none;
+     transition:0.3s;
+}
+.widthcss{
+    width: 100% !important;
+    border: 3px solid black !important;
+}
+.x2 button{
+    padding: 2.4px 12px;
+}
+.x2 ::placeholder{
+    font-size: 9px;
+}
+.x2 i{
+    font-size: 10px;
+}
+}
+@media(max-width:370px){
+    .informational h3 {
+        font-size: 13px;
+    }
+    .informational p{
+        font-size: 12px;
+    }
+    .but1 , .but2{
+        font-size: 8px;
+    }
+.t1{
+    padding: 15px;
+}
+.asagi{
+    margin-left: 10px;
+}
+.nav-href3 p {
+    top: -21px;
+    font-size: 13px;
+}
+}
